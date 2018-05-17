@@ -1,0 +1,11 @@
+---
+ - hosts: 192.168.56.5
+   remote_user: root
+   become: yes
+   become_user: root
+   roles:
+     - { role: java }
+     - { role: elasticsearch }
+     - { role: kibana }
+     - { role: nginx }
+     - { role: logstash }

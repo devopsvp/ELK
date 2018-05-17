@@ -1,0 +1,7 @@
+server_name: master.abc.com
+nginx_kibana_port: 80
+elk_server_ssl_cert_port: 8080
+kibana_user: admin
+kibana_password: admin
+nginx_user: sowmya
+master.abc.com_ip: 192.168.56.5
